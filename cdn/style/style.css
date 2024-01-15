@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+#status {
+    background-color: white;
+    color: black;
+}

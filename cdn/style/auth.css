@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(to bottom right, #ff0000, #0400ff);
+  color: white;
+  font-family: sans-serif;
+}
+#authentication {
+  background-color: black;
+}
+#authorized {
+  background-color: black;
+}
+#mfa-code {
+  background-color: gray;
+}
+/* Old code, that's no longer supported:
+body {
+  background: linear-gradient(to right, red, blue);
+  font-family: sans-serif;
+  color: white;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+  border-color: #ffffff transparent #ffffff transparent;
+  animation: lds-dual-ring 1.5s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+*/

@@ -1,0 +1,33 @@
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Autentisering</title>
+    <script src="../cdn/script/login.js"></script>
+    <link rel="stylesheet" href="../cdn/style/auth.css">
+</head>
+<body>
+    <center>
+        <div id="authentication" style="display: block">
+            <input id="username" type="username" placeholder="Brukernavn">
+            <input id="password" type="password" placeholder="Passord">
+            <button onclick="login()" type="submit">Logg inn</button>
+            <h1>Status</h1>
+            <p id="status">⏳Venter på autentisering.</p>
+        </div>
+        <div id="authorized" style="display: none">
+            <h1>✅</h1>
+            <h2>Autorisert</h2>
+            <p>Du kan nå lukke denne fanen trygt, og returnere til <b>JS ParentalAdvisor</b>.</p>
+        </div>
+        <div id="mfa-code" style="display: none">
+            <center>
+                <h1>MFA (Multi-Factor Authentication)</h1>
+                <p>Sjekk eposten din for en kode du fikk nå.</p>
+                <input type="password" id="mfacode" placeholder="Kode du fikk i e-post">
+                <button onclick="mfalogin()">Logg inn</button>
+            </center>
+        </div>
+    </center>
+</body>
+</html>
